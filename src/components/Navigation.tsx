@@ -31,17 +31,17 @@ export const Navigation: React.FC<NavigationProps> = ({
           About
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onNavigate(450)} style={styles.navButton}>
+      <TouchableOpacity onPress={() => onNavigate(412)} style={styles.navButton}>
         <Text style={[styles.navText, { color: theme.textSecondary }]}>
           Tech Stack
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onNavigate(900)} style={styles.navButton}>
+      <TouchableOpacity onPress={() => onNavigate(1150)} style={styles.navButton}>
         <Text style={[styles.navText, { color: theme.textSecondary }]}>
           Projects
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onNavigate(1500)} style={styles.navButton}>
+      <TouchableOpacity onPress={() => onNavigate(1800)} style={styles.navButton}>
         <Text style={[styles.navText, { color: theme.textSecondary }]}>
           Contact
         </Text>
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     alignItems: "center",
     paddingVertical: 12,
-    paddingTop: 50,
+    paddingTop: 12,
     marginHorizontal: 16,
     marginVertical: 8,
     borderRadius: 16,
