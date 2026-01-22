@@ -1,6 +1,6 @@
 import { ProfileData, TechStackCategory, Project } from "../types";
 
-const profileImg = "https://imgur.com/a/N0up5Hc";
+const profileImg = "https://i.imgur.com/JBuoOcS.jpeg";
 
 export const profileData: ProfileData = {
   name: "Shana Czane M. Cruzat",
