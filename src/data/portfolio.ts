@@ -1,6 +1,6 @@
-import { ProfileData, TechStackCategory, Project } from '../types';
+import { ProfileData, TechStackCategory, Project } from "../types";
 
-const profileImg = require('../../assets/profile.jpg');
+const profileImg = "https://imgur.com/a/N0up5Hc";
 
 export const profileData: ProfileData = {
   name: "Shana Czane M. Cruzat",
@@ -54,19 +54,19 @@ export const techStack: TechStackCategory[] = [
 export const projects: Project[] = [
   {
     id: "1",
-      title: "FurSure",
-      description:
-        "An ongoing pet care companion app that centralizes services, allowing users to book appointments and manage pet information in one convenient platform.",
-      technologies: ["React", "Supabase", "Node.js"],
-      link: "https://github.com/shanaczane/FurSure-frontend",
+    title: "FurSure",
+    description:
+      "An ongoing pet care companion app that centralizes services, allowing users to book appointments and manage pet information in one convenient platform.",
+    technologies: ["React", "Supabase", "Node.js"],
+    link: "https://github.com/shanaczane/FurSure-frontend",
   },
   {
-   id: "2",
-      title: "Computer Shop System",
-      description:
-        "A system for monitoring and managing computer usage in a shop, with user tracking, full CRUD, and organized data management.",
-      technologies: ["PHP", "HTML", "CSS"],
-      link: "https://github.com/shanaczane/computer_shop_system",
+    id: "2",
+    title: "Computer Shop System",
+    description:
+      "A system for monitoring and managing computer usage in a shop, with user tracking, full CRUD, and organized data management.",
+    technologies: ["PHP", "HTML", "CSS"],
+    link: "https://github.com/shanaczane/computer_shop_system",
   },
   {
     id: "3",
