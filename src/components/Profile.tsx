@@ -1,6 +1,6 @@
-import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
-import { Theme, ProfileData } from '../types';
+import React from "react";
+import { View, Text, Image, StyleSheet } from "react-native";
+import { Theme, ProfileData } from "../types";
 
 interface ProfileProps {
   theme: Theme;
@@ -11,10 +11,12 @@ export const Profile: React.FC<ProfileProps> = ({ theme, profileData }) => {
   return (
     <View style={styles.section}>
       <View style={styles.profileContainer}>
-        <View style={[styles.profileImageContainer, { borderColor: theme.accent }]}>
+        <View
+          style={[styles.profileImageContainer, { borderColor: theme.accent }]}
+        >
           <Image
             source={
-              typeof profileData.profileImage === 'string'
+              typeof profileData.profileImage === "string"
                 ? { uri: profileData.profileImage }
                 : profileData.profileImage
             }
@@ -60,6 +62,8 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     marginBottom: 8,
     letterSpacing: 0.5,
+    textAlign: "center", 
+    width: "100%", 
   },
   title: {
     fontSize: 18,
