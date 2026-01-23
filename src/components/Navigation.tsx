@@ -31,17 +31,17 @@ export const Navigation: React.FC<NavigationProps> = ({
           About
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onNavigate(412)} style={styles.navButton}>
+      <TouchableOpacity onPress={() => onNavigate(542)} style={styles.navButton}>
         <Text style={[styles.navText, { color: theme.textSecondary }]}>
           Tech Stack
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onNavigate(1150)} style={styles.navButton}>
+      <TouchableOpacity onPress={() => onNavigate(1358)} style={styles.navButton}>
         <Text style={[styles.navText, { color: theme.textSecondary }]}>
           Projects
         </Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => onNavigate(1800)} style={styles.navButton}>
+      <TouchableOpacity onPress={() => onNavigate(2200)} style={styles.navButton}>
         <Text style={[styles.navText, { color: theme.textSecondary }]}>
           Contact
         </Text>
