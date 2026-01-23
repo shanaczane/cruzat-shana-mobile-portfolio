@@ -17,7 +17,7 @@ export interface ProfileData {
   email: string;
   github: string;
   linkedin: string;
-  twitter: string;
+  instagram: string;
   profileImage: any;
 }
 

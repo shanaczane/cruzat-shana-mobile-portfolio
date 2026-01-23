@@ -43,9 +43,9 @@ export const Contact: React.FC<ContactProps> = ({ theme, profileData }) => {
           </TouchableOpacity>
           <TouchableOpacity
             style={[styles.socialButton, { backgroundColor: theme.cardBg }]}
-            onPress={() => Linking.openURL(profileData.twitter)}
+            onPress={() => Linking.openURL(profileData.instagram)}
           >
-            <Ionicons name="logo-twitter" size={28} color={theme.text} />
+            <Ionicons name="logo-instagram" size={28} color={theme.text} />
           </TouchableOpacity>
         </View>
       </View>

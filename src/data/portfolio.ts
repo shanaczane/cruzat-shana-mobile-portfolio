@@ -8,8 +8,8 @@ export const profileData: ProfileData = {
   bio: "I’m passionate about learning new technologies and applying them to real-world projects. I enjoy building practical solutions that help me grow as a developer.",
   email: "shanaczanecruzat@gmail.com",
   github: "https://github.com/shanaczane",
-  linkedin: "https://linkedin.com/in/shana-cruzat",
-  twitter: "https://twitter.com/yourusername",
+  linkedin: "https://www.linkedin.com/in/shana-cruzat-12b6052a3/",
+  instagram: "https://instagram.com/shanaczane",
   profileImage: profileImg,
 };
 
@@ -70,18 +70,18 @@ export const projects: Project[] = [
   },
   {
     id: "3",
-    title: "Weather Forecast App example",
+    title: "Pinoy Recipe Finder",
     description:
       "Beautiful weather app with 7-day forecasts, location-based weather, and interactive maps.",
-    technologies: ["React Native", "OpenWeather API", "Maps"],
-    link: "https://github.com/yourusername/project3",
+    technologies: ["React", "JavaScript", "HTML", "Tailwind"],
+    link: "https://github.com/shanaczane/pinoy-recipe-finder",
   },
   {
     id: "4",
-    title: "Task Management System example",
+    title: "School Management System",
     description:
-      "Collaborative task manager with real-time updates, team management, and progress tracking.",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    link: "https://github.com/yourusername/project4",
+      "A system that enrolls students and teachers in their respective classes and subjects.",
+    technologies: ["PHP", "HTML", "CSS"],
+    link: "https://github.com/shanaczane/school_management_system",
   },
 ];
