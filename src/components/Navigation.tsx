@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     alignItems: "center",
     paddingVertical: 12,
-    paddingTop: 25,
+    paddingTop: 20,
     marginHorizontal: 16,
     marginVertical: 8,
     borderRadius: 16,
